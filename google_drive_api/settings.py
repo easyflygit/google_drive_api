@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ik&(v(mafw1jp!1!^4b@gg13f#^*wy$s&&fft==x^u!1905#kt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['test-google-drive-api-80db33668016.herokuapp.com']
+ALLOWED_HOSTS = ['test-google-drive-api-80db33668016.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
