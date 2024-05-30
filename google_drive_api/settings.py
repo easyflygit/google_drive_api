@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ik&(v(mafw1jp!1!^4b@gg13f#^*wy$s&&fft==x^u!1905#kt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['test-google-drive-api-80db33668016.herokuapp.com']
 
 
 # Application definition
